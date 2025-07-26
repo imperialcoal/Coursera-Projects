@@ -30,7 +30,7 @@ function findEmployeeById(employeeId) {
       else{
         document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this ID';
        }
-   }
+}
 
 function findEmployeeBySpecialization(employeeSpecialization) {
     const foundEmployee = employees.find(employee => employee.specialization === employeeSpecialization);
