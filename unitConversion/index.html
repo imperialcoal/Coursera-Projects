@@ -3,6 +3,7 @@
     <head>
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <section id="home">
@@ -32,7 +33,7 @@
                             <legend>Temperature</legend>
                             <label for="celsius">Celsius</label> <br/>    
                             <input type="number" id="celsius"> <br/>  
-                            <button id="temperature"> Convert </button> <br/> 
+                            <button id="temperature" onclick="temperature()"> Convert </button> <br/> 
                             <input type="number" id="fahrenheit"> <br/>   
                             <label for="fahrenheit">Fahrenheit</label>
                         </fieldset>
@@ -56,7 +57,7 @@
                             <legend>Weight</legend>
                             <label for="kilo">KG</label> <br/>    
                             <input type="number" id="kilo"> <br/> 
-                            <button id="weight"> Convert </button>  <br/> 
+                            <button id="weight" onclick="weight()"> Convert </button>  <br/> 
                             <input type="number" id="pounds">  <br/>  
                             <label for="pounds">Pounds</label>    
                         </fieldset>
@@ -80,7 +81,7 @@
                             <legend>Distance</legend>
                             <label for="km">KM</label> <br/>    
                             <input type="number" id="km">  <br/>    
-                            <button id="distance"> Convert </button> <br/>  
+                            <button id="distance" onclick="distance()"> Convert </button> <br/>  
                             <input type="number" id="miles">  <br/> 
                             <label for="miles">Miles</label>
                         </fieldset>
@@ -99,6 +100,7 @@
                 <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
             </a>
         </div>    
+        
         <footer>Learn more about HTML and CSS as a part of IBM Fullstack Cloud Developer Certification</footer>
     </body>
 </html>
